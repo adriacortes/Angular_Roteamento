@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRouterModule } from './app-router.module';
 import { PrimeiraPaginaComponent } from './primeira-pagina/primeira-pagina.component';
+import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.component';
+import { PaginaComParametrosComponent } from './pagina-com-parametros/pagina-com-parametros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrimeiraPaginaComponent
+    PrimeiraPaginaComponent,
+    SegundaPaginaComponent,
+    PaginaComParametrosComponent
   ],
   imports: [
     BrowserModule,
